@@ -1,0 +1,28 @@
+{
+  "name": "open-window",
+  "version": "1.0.0",
+  "description": "http service that queries Open Weather API and Ecobee to answer if you should open your window for fresh air",
+  "main": "dist/index.js",
+  "bin": "dist/index.js",
+  "repository": "github:hyperlink/open-window-service",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Xiaoxin Lu <javascript@yahoo.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.1",
+    "@types/lodash": "^4.14.170",
+    "@typescript-eslint/eslint-plugin": "^4.26.0",
+    "@typescript-eslint/parser": "^4.26.0",
+    "eslint": "^7.27.0",
+    "ts-node": "^10.0.0",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "fastify": "^3.17.0",
+    "got": "^11.8.2",
+    "lodash": "^4.17.21"
+  }
+}
